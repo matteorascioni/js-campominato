@@ -3,7 +3,7 @@ var listaDoppioniPc = [];
 
 var size = 16;
 
-while (listaDoppioniPc.length > size) {
+while (listaDoppioniPc.length < size) {
     var number = getRandomNumber(1, 100) 
 
     if (! listaDoppioniPc.includes(number)) {
@@ -13,6 +13,11 @@ while (listaDoppioniPc.length > size) {
 
 console.log(listaDoppioniPc);
 
+
+
+// RICHIEDI ALL'UTENTE DOVE VUOI FAR INSERIRE I NUMERI
+
+// 
 
 
 
