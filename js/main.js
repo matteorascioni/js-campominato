@@ -13,11 +13,14 @@ while (listaDoppioniPc.length < size) {
 
 console.log(listaDoppioniPc);
 
-
-
 // RICHIEDI ALL'UTENTE DOVE VUOI FAR INSERIRE I NUMERI
 
-// 
+for (var i = 0; i < 86; i++) {
+    var numUtente = parseInt(prompt('Inserisci un numero') );
+    
+}
+
+
 
 
 
